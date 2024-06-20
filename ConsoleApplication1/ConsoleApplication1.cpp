@@ -38,42 +38,42 @@ int main() {
 
 	//ex2
 	printf("ex2\n");
-	int cost, cost_prod, cost_tf;
+	int cost, costProd, costTf;
 	printf("Введите стоимость товара: ");
-	//scanf_s("%d", &cost_prod);
-	cost_prod = 10;
-	printf("%d", cost_prod);
+	//scanf_s("%d", &costProd);
+	costProd = 10;
+	printf("%d", costProd);
 	printf("Введите стоимость доставки: ");
-	//scanf_s("%d", &cost_tf);
-	cost_tf = 5;
-	printf("%d", cost_tf);
-	cost = cost_prod + cost_tf;
+	//scanf_s("%d", &costTf);
+	costTf = 5;
+	printf("%d", costTf);
+	cost = costProd + costTf;
 	printf("Полная стоимость товара: %d", cost);
 
 	//ex3
 	printf("ex3\n");
 	std::cout << "Эта программа рассчитает, сколько клиентов успеет обслужить кассир за смену.\n";
 	std::cout << "Введите длительность смены: ";
-	int time_work = random(400, 500);
-	std::cout << time_work << std::endl;
+	int timeWork = random(400, 500);
+	std::cout << timeWork << std::endl;
 	std::cout << "Сколько минут клиент делает заказ? ";
-	int time_client = random(2, 5);
-	std::cout << time_client << std::endl;
+	int timeClient = random(2, 5);
+	std::cout << timeClient << std::endl;
 	std::cout << "Сколько минут кассир собирает заказ? ";
-	int time_staff = random(2, 5);
-	std::cout << time_staff << std::endl;
-	int count_clients = time_work / (time_client + time_staff);
-	printf("За смену длинной в %d минут кассир успеет обслужить %d", time_work, count_clients);
+	int timeStaff = random(2, 5);
+	std::cout << timeStaff << std::endl;
+	int countClients = timeWork / (timeClient + timeStaff);
+	printf("За смену длинной в %d минут кассир успеет обслужить %d", timeWork, countClients);
 
 	//ex4
 	printf("ex4\n");
 	printf("Приветствуем вас в калькуляторе квартплаты");
-	int sum_tot = random(10, 100) * 10000;
-	printf("Введите сумму, указанную в квитанции: %d", sum_tot);
-	int count_sum_home = random(1, 10);
-	printf("Сколько подъездов в вашем доме? %d", count_sum_home);
-	int count_home = random(3, 6) * random(1, 25);
-	printf("Сколько квартир в каждом подъезде? %d", count_home);
-	int sum_one_home = sum_tot / (count_sum_home * count_home);
-	printf("Каждая квартира должна платить по %d", sum_one_home);
+	int sumTot = random(10, 100) * 10000;
+	printf("Введите сумму, указанную в квитанции: %d", sumTot);
+	int countSumHome = random(1, 10);
+	printf("Сколько подъездов в вашем доме? %d", countSumHome);
+	int countHome = random(3, 6) * random(1, 25);
+	printf("Сколько квартир в каждом подъезде? %d", countHome);
+	int sumOneHome = sumTot / (countSumHome * countHome);
+	printf("Каждая квартира должна платить по %d", sumOneHome);
 }

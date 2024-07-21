@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <iostream>
-#include "Random.h"
+#include "AllHW.h"
 
 
 void HW2() {

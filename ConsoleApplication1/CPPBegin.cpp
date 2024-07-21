@@ -1,8 +1,7 @@
 ﻿#include <iostream>
 #include <stdio.h>
 #include <windows.h>
-#include "HW2.h"
-#include "HW3.h"
+#include "AllHW.h"
 
 int main() {
 	std::setlocale(0, "");
@@ -13,5 +12,7 @@ int main() {
 	/*2.5 Практическая работа*/
 	//HW2();
 	/*3.5 Практическая работа*/
-	HW3();
+	//HW3();
+	/*4.4 Практическая работа*/
+	HW4();
 }

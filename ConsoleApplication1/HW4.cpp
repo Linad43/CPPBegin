@@ -231,7 +231,6 @@ void ex9() {
 }
 
 void HW4() {
-	//Минимум из двух чисел
 	int choise = 1;
 	while (choise > 0) {
 		std::cout << "4.4 Практическая работа" << std::endl;

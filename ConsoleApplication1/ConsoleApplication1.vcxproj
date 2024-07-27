@@ -132,6 +132,7 @@
     <ClCompile Include="HW2.cpp" />
     <ClCompile Include="HW3.cpp" />
     <ClCompile Include="HW4.cpp" />
+    <ClCompile Include="HW5.cpp" />
     <ClCompile Include="Random.cpp" />
   </ItemGroup>
   <ItemGroup>
